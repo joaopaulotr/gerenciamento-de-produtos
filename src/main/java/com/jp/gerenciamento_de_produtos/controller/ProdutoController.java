@@ -36,7 +36,4 @@ public class ProdutoController {
     public ProdutoModel adicionarProduto(@RequestBody ProdutoModel produto){
         return produtoService.criarProduto(produto);
     }
-
-
-
 }
