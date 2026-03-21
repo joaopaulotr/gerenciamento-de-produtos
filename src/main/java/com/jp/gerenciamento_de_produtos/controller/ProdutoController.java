@@ -31,7 +31,6 @@ public class ProdutoController {
     public ProdutoModel findById(@RequestParam Long id){
         return produtoService.buscarProdutoPorId(id);
     }
-
     @PostMapping
     public ProdutoModel adicionarProduto(@RequestBody ProdutoModel produto){
         return produtoService.criarProduto(produto);
